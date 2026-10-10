@@ -1,73 +1,87 @@
-<h1 align="center">👋 Hi, I'm Rayen</h1>
-<h3 align="center">Windows Performance • WinUI 3 • System Optimization</h3>
+<div align="center">
+  <h1>Hey there, I'm Rayen 👋</h1>
+  <h3>Software Engineer | Systems Optimization | WinUI 3 Developer</h3>
+  <p>Exploring Windows internals, performance tuning, and modern desktop application architecture.</p>
+
+  <p>
+    <a href="https://rayenghanmi.github.io"><img src="https://img.shields.io/badge/Portfolio-202020?style=for-the-badge&logo=Web&logoColor=white" alt="Portfolio"/></a>
+    <a href="https://x.com/rayen_ghanmi_23"><img src="https://img.shields.io/badge/Twitter-202020?style=for-the-badge&logo=X&logoColor=white" alt="Twitter"/></a>
+    <a href="https://discord.gg/gyBzyd364t"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
+    <a href="https://github.com/rayenghanmi"><img src="https://img.shields.io/badge/GitHub-202020?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  </p>
+</div>
 
 <br/>
 
-<p align="center">
-  <img src="https://ghstats.vercel.app/api?username=rayenghanmi&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
+## 🚀 About Me
 
-## 💻 About Me
+```csharp
+using System;
+using Windows.Internals;
 
-- 🔭 Building **RyTuneX** — a modern Windows 10/11 optimization tool  
-- 🤝 Open to contributors for **RyTuneX**
-- 🌱 Currently learning **WinUI 3 & Windows internals**
-- 💬 Ask me about **Python, Windows performance, optimization**
-- 🎓 Computer science student
+namespace DeveloperProfile 
+{
+    public class RayenGhanmi : ISoftwareEngineer 
+    {
+        public string[] CoreInterests => new[] 
+        { 
+            "System Performance", 
+            "Kernel Optimization", 
+            "Hardware Efficiency" 
+        };
 
-🌐 **Portfolio:** https://rayenghanmi.github.io
+        public string Education => "Computer Science & Software Engineering";
 
-## 🔗 Connect
+        public Project GetCurrentProject() 
+        {
+            return new Project 
+            {
+                Name = "RyTuneX",
+                Role = "Architect & Lead Developer",
+                Description = "An advanced, open-source system tuning and optimization engine for Windows 10/11.",
+                Stack = new[] { "WinUI 3", "C#", ".NET", "PowerShell" },
+                IsAcceptingContributors = true
+            };
+        }
 
-<p align="center">
-  <a href="https://x.com/rayen_ghanmi_23"><img src="https://img.shields.io/badge/Twitter-202020?style=for-the-badge&logo=X&logoColor=white"></a>
-  <a href="https://discord.gg/gyBzyd364t"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
-  <a href="https://github.com/rayenghanmi"><img src="https://img.shields.io/badge/GitHub-202020?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://instagram.com/rayen.ghanmi.23"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-  <a href="https://facebook.com/rayen.ghanmi.23"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
-  <a href="https://www.youtube.com/@rayen.ghanmi.23?sub_confirmation=1"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-  <a href="mailto:ghanmirayen12@gmail.com"><img src="https://img.shields.io/badge/Gmail-323232?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
+        public void Collaborate() 
+        {
+            Console.WriteLine("Always open to open-source contributors and discussions around Windows internals!");
+        }
+    }
+}
+```
 
-## 🛠 Languages & Tools
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" width="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" width="42"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="42"/>
-</p>
-
-## 🌌 Contribution Flow
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rayenghanmi/rayenghanmi/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rayenghanmi/rayenghanmi/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/rayenghanmi/rayenghanmi/output/github-snake.svg" />
-</picture>
-
-## ⭐ Tech Focus & Stats
+## 🛠 Tech Stack
 
 <div align="center">
-  <img height="180em"
-    src="https://ghstats.vercel.app/api/top-langs/?username=rayenghanmi&layout=compact&langs_count=8&theme=tokyonight" />
-  <img height="180em"
-    src="https://ghstats.vercel.app/api?username=rayenghanmi&show_icons=true&theme=tokyonight" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,python,powershell,windows,linux,html,css,github&theme=dark" alt="Tech Stack" />
+  </a>
 </div>
 
-## 📊 Deep Statistics
+## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rayenghanmi&theme=tokyonight" height="180em"/>
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=rayenghanmi&theme=tokyonight" height="180em"/>
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rayenghanmi&theme=tokyonight" height="180em"/>
+  <img height="180em" src="https://ghstats.vercel.app/api?username=rayenghanmi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26" alt="GitHub Stats" />
+  <img height="180em" src="https://ghstats.vercel.app/api/top-langs/?username=rayenghanmi&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=1a1b26" alt="Top Languages" />
 </div>
 
-<h2 align="center">⚡ Activity Graph</h2>
+<br/>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rayenghanmi&theme=tokyo-night" />
-</p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rayenghanmi/rayenghanmi/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rayenghanmi/rayenghanmi/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/rayenghanmi/rayenghanmi/output/github-snake.svg" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="mailto:ghanmirayen12@gmail.com"><img src="https://img.shields.io/badge/Email_Me-323232?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.youtube.com/@rayen.ghanmi.23?sub_confirmation=1"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+  <a href="https://facebook.com/rayen.ghanmi.23"><img src="https://img.shields.io/badge/Facebook-3B5998?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
+  <a href="https://instagram.com/rayen.ghanmi.23"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+</div>
